@@ -1,0 +1,36 @@
+# eureka:
+#   heartbeatInterval: 999
+#   registryFetchInterval: 999
+#   fetchRegistry: true
+#   host: 'localhost'
+#   port: 1010
+#   servicePath: '/eureka/apps/'
+eureka:
+#  overrides: 1
+#  custom: 'test'
+  # heartbeatInterval: 999
+  # registryFetchInterval: 999
+  # registerWithEureka: true
+  # fetchRegistry: true
+  host: localhost
+  port: 1010
+  servicePath: '/eureka/apps/'
+  # ssl: false
+  # useDns: false
+  # fetchMetadata: true
+  # preferIpAddress: true
+
+instance:
+  instanceId: "node-euraka"
+  app: 'node-eureka'
+  hostName: 'localhost'
+  ipAddr: '127.0.0.1'
+  statusPageUrl: 'http://localhost:9999'
+  port:
+      '$': 9999
+      '@enabled': 'true'
+
+  vipAddress: 'node-eureka'
+  dataCenterInfo:
+      '@class': 'com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo'
+      name: 'MyOwn'

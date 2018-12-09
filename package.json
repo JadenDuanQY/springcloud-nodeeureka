@@ -1,0 +1,26 @@
+{
+  "name": "euraka",
+  "version": "0.0.1",
+  "dependencies": {
+    "eureka-js-client": "4.4.2",
+    "express": "*",
+    "body-parser": "*",
+    "urllib": "*",
+    "underscore": "*"
+  },
+  "description": "nodejs 微服务 依赖netflix eureka",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhudan/node-eureka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhudan/node-eureka/issues"
+  },
+  "homepage": "https://github.com/zhudan/node-eureka#readme"
+}
